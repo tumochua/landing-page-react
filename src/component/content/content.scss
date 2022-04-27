@@ -1,5 +1,94 @@
-.ctn{
-    .img-content{
-        width: 100%;
+.ctn {
+    background-color: #1a27c9;
+
+    .ctn-ctn {
+        display        : flex;
+        justify-content: space-between;
+
+        .ctn-title {
+            padding: 25px;
+            color  : #ffff;
+
+            .ctn-left {
+                margin-top: 20px;
+
+                .ctn-web3 {
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        .ctn-bt {
+            display   : flex;
+            margin-top: 40px;
+
+            .ctn-btn {
+                display     : flex;
+                width       : 175px;
+                margin-right: 20px;
+
+                img {
+                    margin-top: 10px;
+                }
+
+                p {
+                    margin: 7px;
+                }
+
+                .p {
+                    margin: 4px 6px 4px 25px;
+                }
+            }
+        }
+    }
+
+    .web3 {
+        background: #002592;
+
+        .web3-title {
+            display        : flex;
+            justify-content: space-around;
+
+            h2 {
+                color: #ffff;
+            }
+
+            p {
+                white-space: pre-line;
+                color      : #ffff;
+            }
+        }
+
+        .web3-modal {
+            width           : 80%;
+            height          : 200px;
+            box-shadow      : 0px 12px 40px rgba(0, 0, 0, 0.1);
+            margin          : 0 auto;
+            z-index         : 2;
+            background-color: #ffff;
+            margin-top      : 40px;
+
+            div {}
+
+            .web3-icon {
+                display        : flex;
+                justify-content: space-around;
+                padding-top    : 20px;
+                margin         : 45px 0px;
+
+                .icon1 {
+                    display: flex;
+
+                    img {
+                        width : 100%;
+                        height: 100%;
+                    }
+
+                    p {
+                        margin: 10px;
+                    }
+                }
+            }
+        }
     }
 }
