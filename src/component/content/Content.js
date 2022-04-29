@@ -3,6 +3,11 @@ import "./content.scss";
 import iconGooglePlay from "../../assets/icon-google-play.png";
 import appLayout from "../../assets/Frame-1000001920.png";
 import icon from "../../assets/Frame 709.png";
+import OnleWallet from "./OnleWallet/OnleWallet";
+import Roadmap from "./roadmap/Roadmap";
+import Protocol from "./protocol/Protocol";
+import OurTeams from "./ourTeams/OurTeams";
+
 function Content() {
   return (
     <>
@@ -85,6 +90,10 @@ function Content() {
           </div>
         </div>
       </div>
+      <OnleWallet />
+      <Roadmap />
+      <Protocol />
+      <OurTeams />
     </>
   );
 }

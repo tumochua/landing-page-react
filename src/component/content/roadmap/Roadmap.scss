@@ -1,0 +1,119 @@
+.roadmap {
+    // padding-top: 100px;
+
+    .roadmap-card {
+        position: relative;
+
+
+        .card {
+            width           : 35vw;
+            height          : 300px;
+            box-shadow      : 0px 12px 40px rgba(0, 0, 0, 0.1);
+            background-color: #ffff;
+        }
+
+        .card1 {
+            margin : 0 auto;
+            z-index: 0;
+
+            div {
+                width : 95%;
+                margin: 0 auto;
+            }
+
+            p {
+                float: right;
+            }
+        }
+
+        .card2 {
+            position: absolute;
+            top     : 75%;
+            right   : 15%;
+            z-index : 2;
+
+            .card-des {
+                text-align: center;
+            }
+
+            .card-coin {
+                display        : flex;
+                justify-content: space-around;
+            }
+
+            button {
+                margin-left: 10px;
+                padding    : 10px;
+            }
+        }
+
+        .card3 {
+            position  : absolute;
+            top       : 50%;
+            left      : 20%;
+            z-index   : 1;
+            text-align: center;
+
+            div {
+                width: 60%;
+            }
+        }
+    }
+
+    .decentralization {
+        width           : 100%;
+        background-color: #010416;
+
+        .des {
+            margin-left: 30px;
+            padding-top: 20%;
+            color      : #ffff;
+
+            .bd {
+                border-bottom: 2px solid #ffff;
+                margin-top   : 40px;
+                width        : 80%;
+            }
+        }
+
+        .step {
+            color          : #ffff;
+            display        : flex;
+            justify-content: space-around;
+
+            .step-precious {
+                margin-top: 40px;
+            }
+
+            .step-des {
+                padding: 20px;
+
+                .stepcarrd {
+                    background: #F9E67F;
+                    color     : #010416;
+                    width     : 400px;
+                    height    : 60px;
+                    text-align: center;
+                }
+
+                .step1 {}
+
+                .step2 {
+                    margin-top   : 10px;
+                    margin-bottom: 10px;
+                    margin-left  : 20px;
+                }
+
+                .step3 {
+
+                    margin-left: 40px;
+                }
+            }
+        }
+
+
+    }
+
+
+
+}
