@@ -35,7 +35,7 @@ function Content() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="img-left">
             <img src={appLayout} />
           </div>
         </div>
@@ -49,7 +49,7 @@ function Content() {
             </p>
           </div>
           <div className="web3-modal">
-            <div>
+            <div className="w3-i">
               <div className="web3-icon">
                 <div className="icon1">
                   <img src={icon} />

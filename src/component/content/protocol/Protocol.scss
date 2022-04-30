@@ -14,4 +14,12 @@
         width         : 50%;
         padding-bottom: 50px;
     }
+
+    //mobile
+    @media only screen and (max-width: 739px) {
+        .pro-des {
+            width     : 90%;
+            text-align: center;
+        }
+    }
 }

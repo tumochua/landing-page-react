@@ -38,7 +38,7 @@ function OnleWallet() {
           <div className="box1 box">
             <div className="content">
               <img src={Onewalet} />
-              <div>
+              <div className="ctn-title">
                 <h2>Manage Funds & NFTs</h2>
                 <p>Multi-chain supported and many more coming in the future.</p>
               </div>
@@ -59,7 +59,7 @@ function OnleWallet() {
           <div className="box2 box">
             <div className="content">
               <img src={iconTitle} />
-              <div>
+              <div className="ctn-title">
                 <h2>Stablecoin Minting Protocol</h2>
                 <p>
                   Combining existing lending platforms with cross-chain
@@ -77,7 +77,7 @@ function OnleWallet() {
           <div className="box3 box">
             <div className="content">
               <img src={iconTitlebox3} />
-              <div>
+              <div className="ctn-title">
                 <h2>Protect Your Assets</h2>
                 <p>
                   Layered encryption and authorization to maximize protection.
@@ -92,7 +92,7 @@ function OnleWallet() {
           <div className="box4 box">
             <div className="content">
               <img src={iconTitleBox4} />
-              <div>
+              <div className="ctn-title">
                 <h2>Manage Funds & NFTs</h2>
                 <p>Multi-chain supported and many more coming in the future.</p>
               </div>
@@ -107,7 +107,7 @@ function OnleWallet() {
           <div className="box5 box">
             <div className="content">
               <img src={iconTileBox5} />
-              <div>
+              <div className="ctn-title">
                 <h2>Protect Your Assets</h2>
                 <p>
                   Layered encryption and authorization to maximize protection.

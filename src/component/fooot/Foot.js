@@ -21,13 +21,6 @@ function Foot() {
                 Other crypto exchange charge up to 4% just to buy and sell
                 crypto. We charge 0%
               </p>
-              <button className="btnfollow">Follow community us</button>
-              <div className="logo">
-                <img src={logoSocial} />
-                <img src={logoFacebook} />
-                <img src={logoTelegram} />
-                <img src={logoGit} />
-              </div>
             </div>
           </div>
           <div className="foot-right">
@@ -49,6 +42,15 @@ function Foot() {
               <p>FAQs</p>
               <p>Blog</p>
             </div>
+          </div>
+        </div>
+        <div className="btn-fooot">
+          <button className="btnfollow">Follow community us</button>
+          <div className="logo">
+            <img src={logoSocial} />
+            <img src={logoFacebook} />
+            <img src={logoTelegram} />
+            <img src={logoGit} />
           </div>
         </div>
         <div className="introduce">

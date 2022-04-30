@@ -65,9 +65,9 @@ function Roadmap() {
           </div>
           <div className="step">
             <div className="step-precious">
-              <p>2022</p>
-              <p>2022</p>
-              <p>2022</p>
+              <div>2022</div>
+              <div>2022</div>
+              <div>2022</div>
             </div>
             <div className="step-des">
               <div className="step1 stepcarrd">

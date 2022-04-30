@@ -13,62 +13,77 @@
         display        : flex;
         flex-wrap      : wrap;
         justify-content: space-around;
-    }
 
-    .box {
-        box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.1);
-        margin-top: 50px;
+        .box {
+            box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
 
-        .onle-wallet-icon {
-            display        : flex;
-            justify-content: space-around;
-            margin         : 30px 0px;
+            .content {
+                .ctn-title {
+                    margin-left: 15px;
+                }
+            }
+
+            .onle-wallet-icon {
+                display        : flex;
+                justify-content: space-around;
+                margin         : 30px 0px;
+            }
+
+            .content {
+                display        : flex;
+                justify-content: space-between;
+
+                img {
+                    margin: auto;
+
+                }
+            }
         }
 
-        .content {
-            display        : flex;
-            justify-content: space-between;
+
+
+        .box1 {
+            width     : 40%;
+            // display: flex;
 
             img {
-                margin: auto;
+                height: 100%;
+            }
 
+        }
+
+        .box2 {
+            width: 40%;
+
+            div {
+                margin-left: 25px;
+            }
+        }
+
+        .box3 {
+            width: 40%;
+
+        }
+
+        .box4 {
+            width: 40%;
+
+        }
+
+        .box5 {
+            width : 40%;
+            margin: 0 auto;
+        }
+    }
+
+    //mobile
+    @media only screen and (max-width: 739px) {
+        .ctn-icon {
+            .box {
+                width: 100%;
             }
         }
     }
-
-    .box1 {
-        width     : 40%;
-        // display: flex;
-
-        img {
-            height: 100%;
-        }
-
-    }
-
-    .box2 {
-        width: 40%;
-
-        div {
-            margin-left: 25px;
-        }
-    }
-
-    .box3 {
-        width: 40%;
-
-    }
-
-    .box4 {
-        width: 40%;
-
-    }
-
-    .box5 {
-        width : 40%;
-        margin: 0 auto;
-    }
-
-
 
 }
