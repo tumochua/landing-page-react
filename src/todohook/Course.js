@@ -1,16 +1,12 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 function Course(props) {
   const [add, setAdd] = useState("");
-  // const [couse, setCouse] = useState([]);
   const handleOnclick = () => {
     props.handlAddCourse(add);
     setAdd("");
   };
-  //   useEffect(() => {
-  //     console.log(props);
-  //     setCouse(props.course);
-  //   }, []);
+
   const handlOnchange = (e) => {
     setAdd(e.target.value);
   };
